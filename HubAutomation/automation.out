@@ -1,0 +1,106 @@
+2018-04-16 12:27:06 INFO  LoginPage:L - Specify user name in[[ChromeDriver: chrome on XP (06fef47f4c79e1e94f39394d04ce0c81)] -> id: txtUserName]
+2018-04-16 12:27:06 INFO  LoginPage:L - Specify password in[[ChromeDriver: chrome on XP (06fef47f4c79e1e94f39394d04ce0c81)] -> id: txtPassword]
+2018-04-16 12:27:07 INFO  TC001_VerifyLoginWithValidCredentials:L - browser closed
+2018-04-16 12:29:00 INFO  LoginPage:L - Specify user name in[[ChromeDriver: chrome on XP (856c0c6a9423d893ce9793a9e658b7a6)] -> id: txtUserName]
+2018-04-16 12:29:00 INFO  LoginPage:L - Specify password in[[ChromeDriver: chrome on XP (856c0c6a9423d893ce9793a9e658b7a6)] -> id: txtPassword]
+2018-04-16 12:29:00 INFO  TC001_VerifyLoginWithValidCredentials:L - browser closed
+2018-04-16 15:05:01 INFO  LoginPage:L - Specify user name in[[ChromeDriver: chrome on XP (91189f337e364807813a497f4bf5a1ae)] -> id: txtUserName]
+2018-04-16 15:05:01 INFO  LoginPage:L - Specify password in[[ChromeDriver: chrome on XP (91189f337e364807813a497f4bf5a1ae)] -> id: txtPassword]
+2018-04-16 15:05:01 INFO  TC001_VerifyLoginWithValidCredentials:L - browser closed
+2018-04-16 15:06:13 INFO  LoginPage:L - Specify user name in[[ChromeDriver: chrome on XP (1977ab62c4a8404e754e287219b04c1b)] -> id: txtUserName]
+2018-04-16 15:06:13 INFO  LoginPage:L - Specify password in[[ChromeDriver: chrome on XP (1977ab62c4a8404e754e287219b04c1b)] -> id: txtPassword]
+2018-04-16 15:06:13 INFO  TC001_VerifyLoginWithValidCredentials:L - browser closed
+2018-04-16 15:07:07 INFO  LoginPage:L - Specify user name in[[ChromeDriver: chrome on XP (5cc5cf8597e0f5def0b7cafee1495312)] -> id: txtUserName]
+2018-04-16 15:07:30 INFO  LoginPage:L - Specify password in[[ChromeDriver: chrome on XP (5cc5cf8597e0f5def0b7cafee1495312)] -> id: txtPassword]
+2018-04-16 15:08:08 INFO  TC001_VerifyLoginWithValidCredentials:L - browser closed
+2018-04-16 15:27:32 INFO  LoginPage:36 - Specify user name in[[ChromeDriver: chrome on XP (271615bd75bb37d4028bb4dbd36aa6cb)] -> id: txtUserName]
+2018-04-16 15:27:32 INFO  LoginPage:39 - Specify password in[[ChromeDriver: chrome on XP (271615bd75bb37d4028bb4dbd36aa6cb)] -> id: txtPassword]
+2018-04-16 15:27:34 INFO  TC001_VerifyLoginWithValidCredentials:35 - browser closed
+2018-04-16 15:30:14 INFO  LoginPage:36 - Specify user name in[[ChromeDriver: chrome on XP (6c003d7fedba1921062a32bf81e382b1)] -> id: txtUserName]
+2018-04-16 15:30:14 INFO  LoginPage:39 - Specify password in[[ChromeDriver: chrome on XP (6c003d7fedba1921062a32bf81e382b1)] -> id: txtPassword]
+2018-04-16 15:31:48 INFO  TC001_VerifyLoginWithValidCredentials:35 - browser closed
+2018-04-16 15:36:31 INFO  LoginPage:36 - Specify user name in[[ChromeDriver: chrome on XP (fb048ca22285afc8804e4425871eab0d)] -> id: txtUserName]
+2018-04-16 15:36:31 INFO  LoginPage:39 - Specify password in[[ChromeDriver: chrome on XP (fb048ca22285afc8804e4425871eab0d)] -> id: txtPassword]
+2018-04-16 15:36:33 INFO  TC001_VerifyLoginWithValidCredentials:35 - browser closed
+2018-04-16 15:38:16 INFO  LoginPage:38 - Specify user name in[[ChromeDriver: chrome on XP (c73d582243f7e760af8bc3bc93f597a7)] -> id: txtUserName]
+2018-04-16 15:38:16 INFO  LoginPage:41 - Specify password in[[ChromeDriver: chrome on XP (c73d582243f7e760af8bc3bc93f597a7)] -> id: txtPassword]
+2018-04-16 15:38:19 INFO  TC001_VerifyLoginWithValidCredentials:35 - browser closed
+2018-04-16 15:39:13 INFO  LoginPage:38 - Specify user name in[[ChromeDriver: chrome on XP (0c5ea9a4cb26cf0bfc5ed5d06c1923fe)] -> id: txtUserName]
+2018-04-16 15:39:13 INFO  LoginPage:41 - Specify password in[[ChromeDriver: chrome on XP (0c5ea9a4cb26cf0bfc5ed5d06c1923fe)] -> id: txtPassword]
+2018-04-16 15:40:02 INFO  TC001_VerifyLoginWithValidCredentials:35 - browser closed
+2018-04-17 14:45:28 INFO  LoginPage:57 - Specify user name in [[ChromeDriver: chrome on XP (9b9aebaeee9658da9c38e2c7fd8f583c)] -> id: txtUserName]
+2018-04-17 14:45:28 INFO  LoginPage:60 - Specify password in [[ChromeDriver: chrome on XP (9b9aebaeee9658da9c38e2c7fd8f583c)] -> id: txtPassword]
+2018-04-17 14:45:29 INFO  LoginPage:63 - Press Tab key
+2018-04-17 14:45:31 INFO  TC001_VerifyLoginWithValidCredentials:35 - browser closed
+2018-04-17 14:57:46 INFO  LoginPage:57 - Specify user name in [[ChromeDriver: chrome on XP (ac0d2165ee9d420a05bfeb4097310680)] -> id: txtUserName]
+2018-04-17 14:57:46 INFO  LoginPage:60 - Specify password in [[ChromeDriver: chrome on XP (ac0d2165ee9d420a05bfeb4097310680)] -> id: txtPassword]
+2018-04-17 14:57:46 INFO  LoginPage:63 - Press Tab key
+2018-04-17 14:57:48 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 14:59:51 INFO  LoginPage:57 - Specify user name in [[ChromeDriver: chrome on XP (71a1a83d4ede27c70cf87cb50952b25c)] -> id: txtUserName]
+2018-04-17 14:59:51 INFO  LoginPage:60 - Specify password in [[ChromeDriver: chrome on XP (71a1a83d4ede27c70cf87cb50952b25c)] -> id: txtPassword]
+2018-04-17 14:59:51 INFO  LoginPage:63 - Press Tab key
+2018-04-17 14:59:53 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:00:49 INFO  LoginPage:57 - Specify user name in [[ChromeDriver: chrome on XP (68c1dd81d57cc61e2ecb47ef83c0f1f7)] -> id: txtUserName]
+2018-04-17 15:00:49 INFO  LoginPage:60 - Specify password in [[ChromeDriver: chrome on XP (68c1dd81d57cc61e2ecb47ef83c0f1f7)] -> id: txtPassword]
+2018-04-17 15:00:49 INFO  LoginPage:63 - Press Tab key
+2018-04-17 15:02:34 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:05:59 INFO  LoginPage:57 - Specify user name in [[ChromeDriver: chrome on XP (ca7e85e3cc40bdab4f323ec9b612e658)] -> id: txtUserName]
+2018-04-17 15:05:59 INFO  LoginPage:60 - Specify password in [[ChromeDriver: chrome on XP (ca7e85e3cc40bdab4f323ec9b612e658)] -> id: txtPassword]
+2018-04-17 15:05:59 INFO  LoginPage:63 - Press Tab key
+2018-04-17 15:05:59 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:06:26 INFO  LoginPage:57 - Specify user name in [[ChromeDriver: chrome on XP (075a1c46467572db7e45f6a4fe47e01b)] -> id: txtUserName]
+2018-04-17 15:06:27 INFO  LoginPage:60 - Specify password in [[ChromeDriver: chrome on XP (075a1c46467572db7e45f6a4fe47e01b)] -> id: txtPassword]
+2018-04-17 15:06:27 INFO  LoginPage:63 - Press Tab key
+2018-04-17 15:07:21 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:10:21 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (c308a180ffdd4583217ac5677692025f)] -> id: txtUserName]
+2018-04-17 15:10:21 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (c308a180ffdd4583217ac5677692025f)] -> id: txtPassword]
+2018-04-17 15:10:21 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:10:41 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:12:06 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (16c779f0686eea3dfbef06c45fdb1226)] -> id: txtUserName]
+2018-04-17 15:12:06 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (16c779f0686eea3dfbef06c45fdb1226)] -> id: txtPassword]
+2018-04-17 15:12:06 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:12:20 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:14:46 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (151930d3b5b1810c6ed069b5ccdcac92)] -> id: txtUserName]
+2018-04-17 15:14:46 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (151930d3b5b1810c6ed069b5ccdcac92)] -> id: txtPassword]
+2018-04-17 15:14:46 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:14:56 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:16:01 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (b9df4e6aa932ab81ff011cff7be1c0a9)] -> id: txtUserName]
+2018-04-17 15:16:01 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (b9df4e6aa932ab81ff011cff7be1c0a9)] -> id: txtPassword]
+2018-04-17 15:16:01 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:16:15 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:24:30 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (3ed700218de28700989506e31d390a25)] -> id: txtUserName]
+2018-04-17 15:24:30 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (3ed700218de28700989506e31d390a25)] -> id: txtPassword]
+2018-04-17 15:24:30 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:24:47 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:25:25 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (e2040bed6f86daf05e0810f3e7717ac6)] -> id: txtUserName]
+2018-04-17 15:25:25 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (e2040bed6f86daf05e0810f3e7717ac6)] -> id: txtPassword]
+2018-04-17 15:25:25 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:26:49 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:27:38 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (5f15e80aae070ec137c5850f4fb10c95)] -> id: txtUserName]
+2018-04-17 15:27:39 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (5f15e80aae070ec137c5850f4fb10c95)] -> id: txtPassword]
+2018-04-17 15:27:39 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:27:39 INFO  LoginPage:69 - selecting the Site ID BFIVE PROP
+2018-04-17 15:30:11 INFO  LoginPage:72 - Clicked on Submit button
+2018-04-17 15:30:11 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:41:29 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (40ffa2970811faf92119999781712690)] -> id: txtUserName]
+2018-04-17 15:41:29 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (40ffa2970811faf92119999781712690)] -> id: txtPassword]
+2018-04-17 15:41:29 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:41:55 INFO  LoginPage:71 - selecting the Site ID BFIVE PROP
+2018-04-17 15:42:03 INFO  LoginPage:74 - Clicked on Submit button
+2018-04-17 15:42:03 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:42:43 INFO  LoginPage:58 - Specify user name in [[ChromeDriver: chrome on XP (fd96a25e33eb43c30a7b1db946650fd7)] -> id: txtUserName]
+2018-04-17 15:42:43 INFO  LoginPage:61 - Specify password in [[ChromeDriver: chrome on XP (fd96a25e33eb43c30a7b1db946650fd7)] -> id: txtPassword]
+2018-04-17 15:42:43 INFO  LoginPage:64 - Press Tab key
+2018-04-17 15:42:50 INFO  LoginPage:71 - selecting the Site ID BFIVE PROP
+2018-04-17 15:42:52 INFO  LoginPage:74 - Clicked on Submit button
+2018-04-17 15:42:52 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:45:01 INFO  LoginPage:58 - Specified user name in [[ChromeDriver: chrome on XP (d1de6305693022b70705e4d01bad9000)] -> id: txtUserName]
+2018-04-17 15:45:02 INFO  LoginPage:61 - Specified password in [[ChromeDriver: chrome on XP (d1de6305693022b70705e4d01bad9000)] -> id: txtPassword]
+2018-04-17 15:45:02 INFO  LoginPage:64 - Pressed Tab key
+2018-04-17 15:45:02 INFO  LoginPage:71 - selected the Site ID BFIVE PROP
+2018-04-17 15:45:04 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
+2018-04-17 15:46:04 INFO  LoginPage:58 - Specified user name in [[ChromeDriver: chrome on XP (35e3446ca49a02854f45d2204beb37f4)] -> id: txtUserName]
+2018-04-17 15:46:04 INFO  LoginPage:61 - Specified password in [[ChromeDriver: chrome on XP (35e3446ca49a02854f45d2204beb37f4)] -> id: txtPassword]
+2018-04-17 15:46:04 INFO  LoginPage:64 - Pressed Tab key
+2018-04-17 15:46:04 INFO  LoginPage:71 - selected the Site ID BFIVE PROP
+2018-04-17 15:46:04 INFO  TC001_VerifyLoginWithValidCredentials:38 - browser closed
