@@ -34,6 +34,13 @@ public class LoginPage {
 			
 	}
 	
+	public void verifyLoginWithInvalidCredentials(String userName,String password){
+		loginUsername.sendKeys(userName);
+		loginPassword.sendKeys(password);
+		loginPassword.sendKeys(Keys.TAB);		
+			
+	}
+	
 	public String getInvalidLoginText(){
 		return loginErrorMsg.getText();
 		
