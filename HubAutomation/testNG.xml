@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+<test name="LoginPageTest">
+
+<classes>
+<class name="com.test.automation.HubAutomation.playerLogin.TC001_VerifyLoginWithValidCredentials"></class>
+<class name="com.test.automation.HubAutomation.playerLogin.TC002_VerifyLoginWithInvalidCredentials"></class>
+</classes>
+
+
+</test>
+</suite>

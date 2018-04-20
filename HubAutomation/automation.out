@@ -1,0 +1,9 @@
+2018-04-20 19:39:01 INFO  TestBase:30 - Object created for browser chrome
+2018-04-20 19:39:03 INFO  TestBase:42 - Navigating to http://10.2.108.234:6460/
+2018-04-20 19:39:04 INFO  LoginPage:50 - ballytest is specified and object is [[ChromeDriver: chrome on XP (8f33727ad04dc5c5704d1f98d9b5bcd5)] -> id: txtUserName]
+2018-04-20 19:39:04 INFO  LoginPage:53 - 121212 is specified and object is [[ChromeDriver: chrome on XP (8f33727ad04dc5c5704d1f98d9b5bcd5)] -> id: txtPassword]
+2018-04-20 19:39:04 INFO  LoginPage:56 - Tab key Pressed
+2018-04-20 19:39:04 INFO  LoginPage:62 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (8f33727ad04dc5c5704d1f98d9b5bcd5)] -> id: ddlSite]
+2018-04-20 19:39:04 INFO  LoginPage:75 - ballytest3 is specified and object is [[ChromeDriver: chrome on XP (85f3729f7e61ad64411e2503c6820755)] -> id: txtUserName]
+2018-04-20 19:39:05 INFO  LoginPage:78 - 321212 is specified and object is [[ChromeDriver: chrome on XP (85f3729f7e61ad64411e2503c6820755)] -> id: txtPassword]
+2018-04-20 19:39:05 INFO  LoginPage:81 - Tab key Pressed

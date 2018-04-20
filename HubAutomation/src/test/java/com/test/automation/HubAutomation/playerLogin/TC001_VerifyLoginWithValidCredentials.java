@@ -1,5 +1,6 @@
 package com.test.automation.HubAutomation.playerLogin;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -10,6 +11,7 @@ import com.test.automation.HubAutomation.uiActions.LoginPage;
 
 public class TC001_VerifyLoginWithValidCredentials extends TestBase {
 
+	public static final Logger log = Logger.getLogger(TC001_VerifyLoginWithValidCredentials.class.getName());
 	
 	LoginPage loginPage;
 	
@@ -21,15 +23,16 @@ public class TC001_VerifyLoginWithValidCredentials extends TestBase {
 	
 	@Test
 	public void verifyLoginWithValidCredentials(){
+		log.info("================= VerifyLoginWithValidCredentials test Ended ================");
 		loginPage = new LoginPage(driver);
-		loginPage.verifyLoginWithValidCredentials("ballytest3", "321212");
-		Assert.assertEquals(loginPage.getInvalidLoginText(), "Employee login name not found or Inactive.");
-						
+		loginPage.verifyLoginWithValidCredentials("ballytest", "121212","BFIVE PROP");
+		Assert.assertEquals(loginPage.checkLogoutButtonVisible(), true);
+		log.info("================= VerifyLoginWithValidCredentials test Ended ================");
 	}
 	
 	@AfterTest
 	public void endTest(){
-		driver.close();
+		//driver.close();
 		
 	}
 }
