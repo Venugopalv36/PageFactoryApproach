@@ -22,17 +22,17 @@ public class TC001_VerifyLoginWithValidCredentials extends TestBase {
 	}
 	
 	@Test
-	public void verifyLoginWithValidCredentials(){
-		log.info("================= VerifyLoginWithValidCredentials test Ended ================");
+	public void verifyLoginWithValidCredentials() {
+		log.info("================= VerifyLoginWithValidCredentials test Started ================");
 		loginPage = new LoginPage(driver);
 		loginPage.verifyLoginWithValidCredentials("ballytest", "121212","BFIVE PROP");
 		Assert.assertEquals(loginPage.checkLogoutButtonVisible(), true);
-		log.info("================= VerifyLoginWithValidCredentials test Ended ================");
+		log.info("================= VerifyLoginWithValidCredentials test Completed ================");
 	}
 	
 	@AfterTest
 	public void endTest(){
-		//driver.close();
+		driver.close();
 		
 	}
 }

@@ -19,6 +19,7 @@ public class LoginPage extends TestBase {
 	
 	WebDriver driver;
 	
+	
 	@FindBy(id="txtUserName")
 	WebElement loginUsername;
 	
@@ -44,7 +45,7 @@ public class LoginPage extends TestBase {
 		
 	}
 	
-	public void verifyLoginWithValidCredentials(String userName,String password, String siteId){
+	public void verifyLoginWithValidCredentials(String userName,String password, String siteId) {
 		
 		loginUsername.sendKeys(userName);
 		log.info(userName+" is specified and object is "+loginUsername.toString());
@@ -55,18 +56,23 @@ public class LoginPage extends TestBase {
 		loginPassword.sendKeys(Keys.TAB);
 		log.info("Tab key Pressed");
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
 		Select site_Id = new Select(selectSiteId);
 		site_Id.selectByVisibleText(siteId);
 		log.info(siteId+" is specified and object is "+selectSiteId.toString());
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		try {
+			Thread.sleep(30);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
 		
 		submitButton.click();
 		log.info("Login Submit button clicked");
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			
 	}
 	
