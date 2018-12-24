@@ -39,3 +39,58 @@
 2018-04-27 09:54:26 INFO  LoginPage:54 - 121212 is specified and object is [[ChromeDriver: chrome on XP (9f74a2f14c1b9e594618dc934786fe52)] -> id: txtPassword]
 2018-04-27 09:54:26 INFO  LoginPage:57 - Tab key Pressed
 2018-04-27 09:54:26 INFO  LoginPage:63 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (9f74a2f14c1b9e594618dc934786fe52)] -> id: ddlSite]
+2018-06-21 12:13:36 INFO  TC001_VerifyLoginWithValidCredentials:26 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:13:36 INFO  LoginPage:51 - ballytest is specified and object is [[ChromeDriver: chrome on XP (fa8852eb0fd80b801a220367056787c6)] -> id: txtUserName]
+2018-06-21 12:13:36 INFO  LoginPage:54 - 121212 is specified and object is [[ChromeDriver: chrome on XP (fa8852eb0fd80b801a220367056787c6)] -> id: txtPassword]
+2018-06-21 12:13:36 INFO  LoginPage:57 - Tab key Pressed
+2018-06-21 12:13:37 INFO  LoginPage:63 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (fa8852eb0fd80b801a220367056787c6)] -> id: ddlSite]
+2018-06-21 12:42:07 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:42:07 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (83014f9cf116bbb32d3fe024c5561b96)] -> id: txtUserName]
+2018-06-21 12:42:07 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (83014f9cf116bbb32d3fe024c5561b96)] -> id: txtPassword]
+2018-06-21 12:42:07 INFO  LoginPage:55 - Tab key Pressed
+2018-06-21 12:43:46 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:44:46 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (8ff1bf6f469705c610e96efcbcbf7117)] -> id: txtUserName]
+2018-06-21 12:45:06 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (8ff1bf6f469705c610e96efcbcbf7117)] -> id: txtPassword]
+2018-06-21 12:45:10 INFO  LoginPage:55 - Tab key Pressed
+2018-06-21 12:45:14 INFO  LoginPage:61 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (8ff1bf6f469705c610e96efcbcbf7117)] -> id: ddlSite]
+2018-06-21 12:45:47 INFO  LoginPage:66 - Login Submit button clicked
+2018-06-21 12:46:13 INFO  TC001_VerifyLoginWithValidCredentials:32 - ================= VerifyLoginWithValidCredentials test Completed ================
+2018-06-21 12:47:35 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:47:35 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (4bcbf9add058121e0dc9d362ac2b51d6)] -> id: txtUserName]
+2018-06-21 12:47:35 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (4bcbf9add058121e0dc9d362ac2b51d6)] -> id: txtPassword]
+2018-06-21 12:47:35 INFO  LoginPage:55 - Tab key Pressed
+2018-06-21 12:47:35 INFO  LoginPage:61 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (4bcbf9add058121e0dc9d362ac2b51d6)] -> id: ddlSite]
+2018-06-21 12:48:22 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:48:22 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (b1a6342a5979427580adbfc44350af57)] -> id: txtUserName]
+2018-06-21 12:48:22 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (b1a6342a5979427580adbfc44350af57)] -> id: txtPassword]
+2018-06-21 12:48:22 INFO  LoginPage:55 - Tab key Pressed
+2018-06-21 12:50:26 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:50:26 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (034440e6f87e48c5a09162d265f53db5)] -> id: txtUserName]
+2018-06-21 12:50:26 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (034440e6f87e48c5a09162d265f53db5)] -> id: txtPassword]
+2018-06-21 12:52:20 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:52:20 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (2436f6fc9f6952af9dc175fb0bd8c5b9)] -> id: txtUserName]
+2018-06-21 12:52:27 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (2436f6fc9f6952af9dc175fb0bd8c5b9)] -> id: txtPassword]
+2018-06-21 12:52:35 INFO  LoginPage:55 - Tab key Pressed
+2018-06-21 12:53:04 INFO  LoginPage:61 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (2436f6fc9f6952af9dc175fb0bd8c5b9)] -> id: ddlSite]
+2018-06-21 12:53:24 INFO  LoginPage:66 - Login Submit button clicked
+2018-06-21 12:53:28 INFO  TC001_VerifyLoginWithValidCredentials:32 - ================= VerifyLoginWithValidCredentials test Completed ================
+2018-06-21 12:57:19 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 12:57:19 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (5ea8e4d65eb559a7dd2137268e3d25ea)] -> id: txtUserName]
+2018-06-21 12:57:19 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (5ea8e4d65eb559a7dd2137268e3d25ea)] -> id: txtPassword]
+2018-06-21 12:57:19 INFO  LoginPage:55 - Tab key Pressed
+2018-06-21 12:57:20 INFO  LoginPage:61 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (5ea8e4d65eb559a7dd2137268e3d25ea)] -> id: ddlSite]
+2018-06-21 12:57:22 INFO  LoginPage:66 - Login Submit button clicked
+2018-06-21 12:57:22 INFO  TC001_VerifyLoginWithValidCredentials:32 - ================= VerifyLoginWithValidCredentials test Completed ================
+2018-06-21 13:02:22 INFO  TestBase:45 - Object created for browser chrome
+2018-06-21 13:02:26 INFO  TestBase:57 - Navigating to http://10.2.108.234:6460/
+2018-06-21 13:02:27 INFO  TC001_VerifyLoginWithValidCredentials:27 - ================= VerifyLoginWithValidCredentials test Started ================
+2018-06-21 13:02:27 INFO  LoginPage:49 - ballytest is specified and object is [[ChromeDriver: chrome on XP (b20374b4e0cf30eb3c7761f7c8c06898)] -> id: txtUserName]
+2018-06-21 13:02:27 INFO  LoginPage:52 - 121212 is specified and object is [[ChromeDriver: chrome on XP (b20374b4e0cf30eb3c7761f7c8c06898)] -> id: txtPassword]
+2018-06-21 13:02:27 INFO  LoginPage:55 - Tab key Pressed
+2018-06-21 13:02:28 INFO  LoginPage:61 - BFIVE PROP is specified and object is [[ChromeDriver: chrome on XP (b20374b4e0cf30eb3c7761f7c8c06898)] -> id: ddlSite]
+2018-06-21 13:02:32 INFO  LoginPage:66 - Login Submit button clicked
+2018-06-21 13:02:32 INFO  TC001_VerifyLoginWithValidCredentials:32 - ================= VerifyLoginWithValidCredentials test Completed ================
+2018-06-21 13:02:32 INFO  TC002_VerifyLoginWithInvalidCredentials:27 - ================= VerifyLoginWithInvalidCredentials test started ================
+2018-06-21 13:02:33 INFO  LoginPage:74 - ballytest3 is specified and object is [[ChromeDriver: chrome on XP (132b4e0e16f721af1da695c0ef3c4b54)] -> id: txtUserName]
+2018-06-21 13:02:33 INFO  LoginPage:77 - 321212 is specified and object is [[ChromeDriver: chrome on XP (132b4e0e16f721af1da695c0ef3c4b54)] -> id: txtPassword]
+2018-06-21 13:02:33 INFO  LoginPage:80 - Tab key Pressed

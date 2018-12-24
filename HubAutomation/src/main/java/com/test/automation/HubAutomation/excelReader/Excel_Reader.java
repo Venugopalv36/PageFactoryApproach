@@ -3,6 +3,7 @@ package com.test.automation.HubAutomation.excelReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -31,6 +32,7 @@ public class Excel_Reader {
 	}
 	
 	
+	@SuppressWarnings({ "deprecation", "static-access" })
 	public String[][] getDataFromSheet( String excelName, String sheetName){
 		
 		String dataset[][] = null;
@@ -74,6 +76,46 @@ public class Excel_Reader {
 		return dataset;	
 	}
 	
+	
+	@SuppressWarnings({ "deprecation", "static-access" })
+	public String getCellData(String sheetName, String colName, int rowNum){
+		
+		try {
+			int colNum = 0;
+			
+			int index = workbook.getSheetIndex(sheetName);
+			
+			sheet = workbook.getSheetAt(index);
+			
+			XSSFRow row = sheet.getRow(0);
+			
+			for(int i = 0; i < row.getLastCellNum(); i++ ){
+				if(row.getCell(i).getStringCellValue().equals(colName)){
+					colNum = i;
+					break;
+				}
+			}
+			
+			row = sheet.getRow(rowNum - 1);
+			
+			XSSFCell cell = row.getCell(colNum);
+			
+			if(cell.getCellType() == Cell.CELL_TYPE_STRING){
+				return cell.getStringCellValue();
+			}else if(cell.getCellType() == cell.CELL_TYPE_NUMERIC){
+				return String.valueOf(cell.getNumericCellValue());
+			}else if (cell.getCellType() == cell.CELL_TYPE_BLANK){
+				return "";
+				
+			}
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+				
+		return null;
+	}
 	
 
 }

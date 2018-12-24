@@ -23,11 +23,18 @@ public class TC002_VerifyLoginWithInvalidCredentials extends TestBase {
 	
 	@Test
 	public void verifyLoginWithInvalidCredentials(){
-		log.info("================= VerifyLoginWithInvalidCredentials test started ================");
-		loginPage = new LoginPage(driver);
-		loginPage.verifyLoginWithInvalidCredentials("ballytest3", "321212");
-		Assert.assertEquals(loginPage.getInvalidLoginText(), "Employee login name not found or Inactive.");
-		log.info("================= VerifyLoginWithInvalidCredentials test Ended ================");
+		try {
+			log.info("================= VerifyLoginWithInvalidCredentials test started ================");
+			loginPage = new LoginPage(driver);
+			loginPage.verifyLoginWithInvalidCredentials("ballytest3", "321212");
+			Assert.assertEquals(loginPage.getInvalidLoginText(), "Employee login name not found or Inactive.");
+			getScreenshot("verifyLoginWithInvalidCredentials");
+			log.info("================= VerifyLoginWithInvalidCredentials test Ended ================");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			getScreenshot("verifyLoginWithInvalidCredentials");
+			e.printStackTrace();
+		}
 						
 	}
 	

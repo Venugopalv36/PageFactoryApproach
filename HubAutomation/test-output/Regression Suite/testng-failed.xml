@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="LoginPageTest(failed)">
+    <classes>
+      <class name="com.test.automation.HubAutomation.playerLogin.TC001_VerifyLoginWithValidCredentials">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="verifyLoginWithValidCredentials"/>
+        </methods>
+      </class> <!-- com.test.automation.HubAutomation.playerLogin.TC001_VerifyLoginWithValidCredentials -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

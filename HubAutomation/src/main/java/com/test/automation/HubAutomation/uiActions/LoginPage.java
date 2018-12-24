@@ -1,7 +1,5 @@
 package com.test.automation.HubAutomation.uiActions;
 
-import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -56,24 +54,19 @@ public class LoginPage extends TestBase {
 		loginPassword.sendKeys(Keys.TAB);
 		log.info("Tab key Pressed");
 		
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		
+		waitForElement(driver, 60, submitButton);
+				
 		Select site_Id = new Select(selectSiteId);
 		site_Id.selectByVisibleText(siteId);
 		log.info(siteId+" is specified and object is "+selectSiteId.toString());
-		
-		try {
-			Thread.sleep(30);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}	
+					
+		waitForElement(driver, 60, submitButton);
 		
 		submitButton.click();
 		log.info("Login Submit button clicked");
 		
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-			
+		waitForElement(driver, 60, loginErrorMsg);
+					
 	}
 	
 	public void verifyLoginWithInvalidCredentials(String userName,String password){
@@ -86,8 +79,8 @@ public class LoginPage extends TestBase {
 		loginPassword.sendKeys(Keys.TAB);
 		log.info("Tab key Pressed");
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			
+		waitForElement(driver, 60, submitButton);
+					
 	}
 	
 		

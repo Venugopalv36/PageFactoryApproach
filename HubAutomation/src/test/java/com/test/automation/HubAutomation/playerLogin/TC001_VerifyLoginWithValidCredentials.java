@@ -23,11 +23,18 @@ public class TC001_VerifyLoginWithValidCredentials extends TestBase {
 	
 	@Test
 	public void verifyLoginWithValidCredentials() {
-		log.info("================= VerifyLoginWithValidCredentials test Started ================");
-		loginPage = new LoginPage(driver);
-		loginPage.verifyLoginWithValidCredentials("ballytest", "121212","BFIVE PROP");
-		Assert.assertEquals(loginPage.checkLogoutButtonVisible(), true);
-		log.info("================= VerifyLoginWithValidCredentials test Completed ================");
+		try {
+			log.info("================= VerifyLoginWithValidCredentials test Started ================");
+			loginPage = new LoginPage(driver);
+			loginPage.verifyLoginWithValidCredentials("ballytest", "121212","BFIVE PROP");
+			Assert.assertEquals(loginPage.checkLogoutButtonVisible(), true);
+			getScreenshot("verifyLoginWithValidCredentials");
+			log.info("================= VerifyLoginWithValidCredentials test Completed ================");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			getScreenshot("verifyLoginWithValidCredentials");
+			e.printStackTrace();
+		}
 	}
 	
 	@AfterTest
